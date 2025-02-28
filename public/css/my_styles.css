@@ -1,0 +1,144 @@
+.fancy-button {
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+
+  box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
+ 
+}
+
+
+/* Primary button */
+.fancy-button-primary {
+  background-color: #007bff;
+}
+.fancy-button-primary:hover {
+  background-color: #0069d9;
+}
+.fancy-button-primary:active {
+  background-color: #007bff;
+}
+
+/* Secondary button */
+.fancy-button-secondary {
+  background-color: #6c757d;
+}
+.fancy-button-secondary:hover {
+  background-color: #5a6268;
+}
+.fancy-button-secondary:active {
+  background-color: #6c757d;
+}
+
+/* Success button */
+.fancy-button-success {
+  background-color: #28a745;
+}
+.fancy-button-success:hover {
+  background-color: #218838;
+}
+.fancy-button-success:active {
+  background-color: #28a745;
+}
+
+/* Danger button */
+.fancy-button-danger {
+  background-color: #dc3545;
+}
+.fancy-button-danger:hover {
+  background-color: #c82333;
+}
+.fancy-button-danger:active {
+  background-color: #dc3545;
+}
+
+/* Warning button */
+.fancy-button-warning {
+  background-color: #ffc107;
+  color: black; /* Adjust text color for better contrast */
+}
+.fancy-button-warning:hover {
+  background-color: #e0a800;
+}
+.fancy-button-warning:active {
+  background-color: #ffc107;
+}
+
+/* Info button */
+.fancy-button-info {
+  background-color: #17a2b8;
+}
+.fancy-button-info:hover {
+  background-color: #138496;
+}
+.fancy-button-info:active {
+  background-color: #17a2b8;
+}
+
+
+.unobtrusive-button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  background: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.1s ease-in-out;
+}
+
+/* Green */
+.unobtrusive-button.success {
+  border-color: #04AA6D;
+  color: green;
+}
+
+.unobtrusive-button.success:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Blue */
+.unobtrusive-button.info {
+  border-color: #2196F3;
+  color: dodgerblue;
+}
+
+.unobtrusive-button.info:hover {
+  background: #2196F3;
+  color: white;
+}
+
+/* Orange */
+.unobtrusive-button.warning {
+  border-color: #ff9800;
+  color: orange;
+}
+
+.unobtrusive-button.warning:hover {
+  background: #ff9800;
+  color: white;
+}
+
+/* Red */
+.unobtrusive-button.danger {
+  border-color: #f44336;
+  color: red;
+}
+
+.unobtrusive-button.danger:hover {
+  background: #f44336;
+  color: white;
+}
+
+/* Gray */
+.unobtrusive-button.default {
+  border-color: #e7e7e7;
+  color: black;
+}
+
+.unobtrusive-button.default:hover {
+  background: #e7e7e7;
+}
